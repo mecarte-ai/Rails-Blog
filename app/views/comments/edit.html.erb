@@ -1,0 +1,5 @@
+  <h1>Edit Post id: <%= @comment.id %></h1>
+
+ <%= render partial: 'form', locals: { comment: @comment } %>
+
+  <%= link_to 'Index', comments_path %>
