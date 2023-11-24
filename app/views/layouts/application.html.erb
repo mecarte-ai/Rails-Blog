@@ -7,11 +7,10 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="prose mx-auto"> 
       <% if flash[:notice] %>
     <p class="notice"><%= notice %></p>
   <% end %>
